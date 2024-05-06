@@ -1,17 +1,17 @@
 {
-  "name": "thomas-leon-highbaugh-resume",
+  "name": "Anubhav Gain Resume",
   "version": "3.1.0",
   "description": "A tasteful, professional resume written using HTML & Tailwind.css. Based on Universal Resume Template",
-  "homepage": "https://github.com/Thomashighbaugh/resume",
+  "homepage": "https://github.com/mranv/resume",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thomashighbaugh/resume"
+    "url": "https://github.com/mranv/resume"
   },
   "bugs": {
-    "url": "https://github.com/Thomashighbaugh/resume/issues"
+    "url": "https://github.com/mranv/resume/issues"
   },
   "license": "MIT",
-  "author": "Thomas Leon Highbaugh <thighbaugh@zoho.com>",
+  "author": "Anubhav Gain <iamanubhavgain@gmail.com>",
   "scripts": {
     "serve": "concurrently \"postcss ./tailwind.css -o docs/build.css --watch\"  \"live-server ./docs \"",
     "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./docs/build.css"
